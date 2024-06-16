@@ -1,10 +1,12 @@
 {
   "modules": {
     "_mymodule": [
-      "./esp32/index"
+      "./index-esp32"
+    ],
+    "./esp32/*": [
+      "./esp32/example"
     ],
     "./*": [
-      "./esp32/example",
       "./shared"
     ]
   }
