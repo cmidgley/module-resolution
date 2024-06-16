@@ -3,7 +3,7 @@
     "_mymodule": [
       "./esp32/index"
     ],
-    "_mymodule/*": [
+    "./*": [
       "./esp32/example",
       "./shared"
     ]
