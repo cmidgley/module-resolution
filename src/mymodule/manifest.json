@@ -5,7 +5,7 @@
     ],
     "./*": [
       "./esp32/example",
-      "./shared"
+      "./esp32/shared"
     ]
   }
 }
