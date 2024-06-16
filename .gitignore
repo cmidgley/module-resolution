@@ -1,0 +1,9 @@
+dist/
+node_modules/
+xsproj/
+*.tmp
+*.temp
+*.tmp.txt
+*.log
+test-output/
+testtrack.json

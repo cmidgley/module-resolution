@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "es2022"
+        ],
+        "baseUrl": "./",
+        "module": "nodenext",
+        "target": "es2022",
+        "sourceMap": true,
+        "moduleResolution": "nodenext",
+        "skipLibCheck": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "traceResolution": false,
+        "paths": {
+            "_mymodule": [
+                "src/mymodule/node/index.ts"
+            ]
+        },
+    },
+    "include": [
+        "./src/**/*.ts"
+, "src/mymodule/esp32/shared.ts.xyz"    ],
+    "exclude": [
+        "./node_modules",
+        "./dist",
+        "./jest.config.ts",
+        "./tools",
+        "src/mymodule/esp32",
+    ],
+    "ts-node": {
+        "extends": "ts-node/node16/tsconfig.json",
+        "transpileOnly": false,
+        "files": true,
+    }
+}
